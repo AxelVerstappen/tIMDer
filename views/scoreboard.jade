@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  div#logo
+    a(href="/")
+     img(src="/images/logo.svg", alt="logo")
+  h1#title
+   span= title
+  
+  div#messages
+   
+  body
+    
+  script.
+   $( document ).ready(function() {
+    var client = new Faye.Client('/faye',{
+     timeout: 20
+    });
+
+    client.subscribe('/channel2', function(message){
+     $('#messages').append('<h2 class="companyName">'+ message.header +'</h2>');
+    });
+
+    client.subscribe('/channel', function(message) {
+     $('#messages').append('<p class="likedbyCompany">' + message.text + '</p>');
+    });
+    
+   });
+  
