@@ -63,7 +63,7 @@ app.post('/insertvotes', routes.insertvotes(db));
 app.post('/setcompanyuser', routes.setcompanyuser(db));
 app.post('/resetcompanyuser', routes.resetcompanyuser);
 
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
 console.log("Server up and listening on port 3000")
 
 
