@@ -14,7 +14,7 @@ var expressValidator = require('express-validator');
 //db vars
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('MONGOHQ_URL');
+var db = monk('mongodb://Admin:x1c5k9l7h3@oceanic.mongohq.com:10078/timder');
 
 //faye server vars
 var bayeux = new faye.NodeAdapter({
