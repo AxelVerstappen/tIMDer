@@ -26,7 +26,8 @@ var server = http.createServer(app);
 bayeux.attach(server);
 
 // all environments
-app.use(express.static(__dirname + '/static-favicon'));
+app.use(express.favicon('favicon.ico'));
+app.use(express.static(__dirname + '/public'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.favicon());
