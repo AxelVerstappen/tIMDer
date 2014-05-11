@@ -10,7 +10,6 @@ var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var expressValidator = require('express-validator');
-var port = process.env.PORT || 3000;
 
 //db vars
 var mongo = require('mongodb');
@@ -64,7 +63,7 @@ app.post('/insertvotes', routes.insertvotes(db));
 app.post('/setcompanyuser', routes.setcompanyuser(db));
 app.post('/resetcompanyuser', routes.resetcompanyuser);
 
-server.listen(port);
+server.listen(3000);
 console.log("Server up and listening on port 3000")
 
 
