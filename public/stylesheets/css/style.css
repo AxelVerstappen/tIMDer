@@ -109,7 +109,7 @@ body {
       background-color: rgba(249, 244, 56, 0.9);
       padding: 1em 0; }
       body #adminContent .adminContentList h2 {
-        font-size: 1.2em;
+        font-size: 1.8em;
         font-weight: bold; }
       body #adminContent .adminContentList .singlePost {
         display: block;
@@ -158,6 +158,7 @@ body {
       padding-bottom: 1em;
       padding-top: 1em; }
       body #messages li h2 {
+        font-size: 1.8em;
         font-weight: bold; }
       body #messages li p {
         font-size: 1.5em; }
