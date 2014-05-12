@@ -153,15 +153,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: rgba(249, 244, 56, 0.9);
-    padding-bottom: 1em;
-    padding-top: 0.3em; }
-    body #messages h2 {
-      margin-top: 0.5em;
-      font-size: 1.8em;
-      font-weight: bold; }
-    body #messages p {
-      font-size: 1.5em; }
+    background-color: rgba(249, 244, 56, 0.9); }
+    body #messages li {
+      padding-bottom: 1em;
+      padding-top: 1em; }
+      body #messages li h2 {
+        font-weight: bold; }
+      body #messages li p {
+        font-size: 1.5em; }
 
 nav {
   width: 100%;
