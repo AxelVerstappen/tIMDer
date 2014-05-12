@@ -48,6 +48,14 @@ body
         list-style: none;
     }
     
+    #inputCompanyName
+    {
+        .inputField
+        {
+            width: 227px;
+        }
+    }
+    
     #title
     {
         font-size: $font-size-title;

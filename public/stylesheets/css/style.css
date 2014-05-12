@@ -4,6 +4,8 @@ body {
   color: #252525; }
   body ul {
     list-style: none; }
+  body #inputCompanyName .inputField {
+    width: 227px; }
   body #title {
     font-size: 2.1em;
     margin-bottom: 1em; }
