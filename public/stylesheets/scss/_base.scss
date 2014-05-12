@@ -48,14 +48,6 @@ body
         list-style: none;
     }
     
-    #inputCompanyName
-    {
-        .inputField
-        {
-            width: 227px;
-        }
-    }
-    
     #title
     {
         font-size: $font-size-title;
@@ -76,6 +68,11 @@ body
         min-width: 250px;
         @include center-div;
         line-height: 2.5em;
+        
+        .inputField
+        {
+            width: 221px;
+        }
     }
     
     .button 
