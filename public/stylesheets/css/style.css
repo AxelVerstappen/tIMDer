@@ -107,7 +107,8 @@ body {
       width: 45%;
       min-width: 200px;
       background-color: rgba(249, 244, 56, 0.9);
-      padding: 1em 0; }
+      padding: 1em 0;
+      margin-bottom: 1em; }
       body #adminContent .adminContentList h2 {
         font-size: 1.8em;
         font-weight: bold; }

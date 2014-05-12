@@ -13,6 +13,9 @@ block content
     -    }
     h1#title
      span= title
+    - if (message)
+      ul
+       li.feedback= message
     - if (isEmptyObject(errors) == false)
         ul  
           - each error in errors
