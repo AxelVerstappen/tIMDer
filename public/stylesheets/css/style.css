@@ -125,6 +125,8 @@ body {
           body #adminContent .adminContentList .singlePost label .buttonSmall {
             vertical-align: middle;
             margin-left: 1em; }
+  body #formAddUser {
+    margin-bottom: 1em; }
   body #accountWork {
     min-width: 860px; }
   body .adduserDiv {
@@ -149,6 +151,9 @@ body {
       margin-right: 0.85em; }
   body .error {
     color: #e93f3c;
+    margin-bottom: 0.7em; }
+  body .feedback {
+    color: #00b20d;
     margin-bottom: 0.7em; }
   body #messages {
     margin-left: auto;

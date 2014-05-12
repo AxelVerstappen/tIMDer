@@ -223,6 +223,10 @@ body
             }
         }
     }
+    #formAddUser
+    {
+        margin-bottom: 1em;    
+    }
     
     #accountWork
     {
@@ -233,7 +237,6 @@ body
     {
         background-color: $overlay-color;
         width: 50%;
-        //min-width: 850px;
         @include center-div;
         padding: 1em 0em;
         
@@ -265,6 +268,12 @@ body
     .error
     {
         color: $btn-color;
+        margin-bottom: 0.7em;
+    }
+    
+    .feedback
+    {
+        color: #00b20d;
         margin-bottom: 0.7em;
     }
     
